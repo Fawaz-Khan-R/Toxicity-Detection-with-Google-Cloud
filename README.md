@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MVmZV7FbSeQLR8PGjOOMhs-1tpkU9rnZ?usp=sharing)
+
 # Toxicity Detection and Mitigation Model
 
 ## Overview

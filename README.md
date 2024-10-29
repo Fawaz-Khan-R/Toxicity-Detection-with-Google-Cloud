@@ -3,6 +3,15 @@
 ## Overview
 This repository contains the code and resources for a toxicity detection model developed during the Google Cloud Skills Boost course on Responsible AI for Developers. The project applies machine learning techniques to identify harmful language in text, emphasizing ethical AI practices. The model uses a simple Keras sequential architecture with initial embedding and dense layers, outputting toxicity predictions. Additionally, it employs the MinDiff method to mitigate bias in the model's predictions.
 
+## Model Evaluation Metrics
+
+| Metric                | Value                      |
+|-----------------------|----------------------------|
+| Validation Accuracy    | 0.9216                     |
+| Loss                   | 0.2316                     |
+| Nonsensitive FPR (Threshold = 0.3) | 0.06023           |
+| Sensitive FPR (Threshold = 0.3)    | 0.14778           |
+
 ## Responsible AI
 Responsible AI refers to the development and deployment of artificial intelligence systems that are ethical, fair, and accountable. It encompasses principles that guide the design of AI technologies to ensure they do not perpetuate harm or discrimination. Key aspects include:
 

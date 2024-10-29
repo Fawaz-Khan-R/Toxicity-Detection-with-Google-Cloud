@@ -1,4 +1,4 @@
-# Toxicity Detection Model
+# Toxicity Detection and Mitigation Model
 
 ## Overview
 This repository contains the code and resources for a toxicity detection model developed during the Google Cloud Skills Boost course on Responsible AI for Developers. The project applies machine learning techniques to identify harmful language in text, emphasizing ethical AI practices. The model uses a simple Keras sequential architecture with initial embedding and dense layers, outputting toxicity predictions. Additionally, it employs the MinDiff method to mitigate bias in the model's predictions.

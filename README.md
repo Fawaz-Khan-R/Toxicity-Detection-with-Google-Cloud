@@ -72,3 +72,9 @@ To enhance this project further, the goals to be implemented are:
 - Introduce regularization techniques like dropout layers to prevent overfitting.
 - Explore advanced architectures like LSTM or transformers for improved handling of sequential text data.
 - Consider ensemble methods by combining predictions from multiple models for better accuracy.
+
+## ⚠️Important Warning
+
+**Please note:** If you run the `min_diff_keras.ipynb` file, you must do so in a Google authorized Vertex AI Workbench environment. Running this notebook outside of Vertex AI Workbench may result in dependency errors due to the proprietary nature of the `tensorflow_model_remediation.min_diff` and `min_diff_keras_utils` modules, which are specifically designed for use within Google Cloud's infrastructure.
+
+To access and run the notebook, please implement it in Google Cloud's Vertex AI Workbench.
